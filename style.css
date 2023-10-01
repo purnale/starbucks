@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-}
-
-section{
+    font-family: "poppins", sans-serif;
+  }
+  
+  section {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -14,9 +14,9 @@ section{
     justify-content: space-between;
     align-items: center;
     background: #fff;
-}
-
-header{
+  }
+  
+  header {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,61 +25,72 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header .logo{
+  }
+  
+  header .logo {
     position: relative;
     max-width: 80px;
-}
-
-header ul{
+  }
+  
+  header ul {
     position: relative;
     display: flex;
-}
-
-header ul li{
+  }
+  
+  header ul li {
     list-style: none;
-}
-
-header ul li a{
+  }
+  
+  header ul li a {
     display: inline-block;
     color: #333;
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
-}
-
-.content{
+  }
+  header ul li a:hover {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+  .content {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.content .textbox{
+  }
+  
+  .content .textbox {
     position: relative;
     max-width: 600px;
-}
-
-.content .textbox h2{
+  }
+  
+  .content .textbox h2 {
     color: #333;
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.4rem;
     font-weight: 500;
-}
-
-.content .textbox h2 span{
+  }
+  
+  .content .textbox h2 span {
     color: #017143;
-    font-size: 1.2rem;
+    font-size: 4rem;
     font-weight: 900;
-}
-
-.content .textbox p{
+  }
+  
+  .content .textbox p {
+    padding-top: 1rem;
     color: #333;
-}
-
-.content .textbox a{
+  }
+  
+  .content .textbox a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -89,66 +100,70 @@ header ul li a{
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-}
-
-.content .imgbox{
+  }
+  
+  .content .imgbox {
     width: 600px;
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
     margin-top: 50px;
-}
-
-.content .imgbox img{
+  }
+  
+  .content .imgbox img {
     max-width: 340px;
-}
-
-.thumb{
+  }
+  
+  .thumb {
     position: absolute;
-    left:50%;
+    left: 50%;
     bottom: 20%;
     transform: translateX(-50%);
     display: flex;
-}
-
-.thumb li{
+  }
+  
+  .thumb li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     cursor: pointer;
     transition: 0.5s;
-}
-
-.thumb li:hover{
- transform:translateY(-15px);
-}
-
-.thumb li img{
+  }
+  
+  .thumb li:hover {
+    transform: translateY(-15px);
+  }
+  
+  .thumb li img {
     max-width: 60px;
-}
-
-.sci{
+  }
+  
+  .sci {
     position: absolute;
     top: 50%;
     right: 30px;
     transform: translateY(-50%);
     display: flex;
     justify-content: center;
-    align-items: center;flex-direction: column;
-}
-
-.sci li{
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .sci li {
     list-style: none;
-}
-
-.sci li a{
+  }
+  
+  .sci li a {
     display: inline-block;
     margin: 5px 0;
     transform: scale(0.6);
     filter: invert(1);
-}
-
-.circle{
+  }
+  .sci li a i{
+  font-size: 48px;
+  }
+  
+  .circle {
     position: absolute;
     top: 0;
     left: 0;
@@ -156,4 +171,5 @@ header ul li a{
     height: 100%;
     background: #017143;
     clip-path: circle(600px at right 800px);
-}
+  }
+  
